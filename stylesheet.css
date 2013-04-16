@@ -2,6 +2,7 @@ html, body {
 	margin:0px;
 	padding:0px;
 	background:#000;
+	color:#ccc;
 }
 
 
@@ -22,7 +23,6 @@ footer, header, hgroup, nav, section {
 article {
     -webkit-transition: background 0.2s ease 0s;
     transition: background 0.2s ease 0s; }
-}
 
 header {
 	text-align: center;
