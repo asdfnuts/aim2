@@ -1,0 +1,138 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	background:#000;
+}
+
+
+
+/* This will enforce block-level properties to HTML5 elements */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, nav, section {
+	display: block;
+}
+
+
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+article {
+    -webkit-transition: background 0.2s ease 0s;
+    transition: background 0.2s ease 0s; }
+}
+
+header {
+	text-align: center;
+	color:#CCC;
+}
+
+hgroup {
+	width: 100%;
+	background-color: #292929;
+	font-family: 'Pacifico', cursive;
+}
+
+h1 {
+	margin-left:4%;
+	color:#777;
+	font-size:1.6rem;
+}
+h2 {	
+	margin-left:4%;
+	color:#666;
+	font-size:1.3rem;
+	font-weight:normal;
+}
+
+nav {
+	font-family: 'Pacifico', cursive;
+
+}
+
+li {
+	list-style: none;
+	padding: 0px;
+	display: inline-block;
+	line-height:2rem;
+}
+
+article li {
+	display:block;
+}
+
+a:link {color: #D9418D;}
+a:visited{color:#E889C5;
+		text-decoration: line-through;}
+a:hover{color:#E3B6D2;
+		font-size: 1.1rem;
+		text-decoration: none;}
+
+
+article {
+	margin:auto;
+	width:80%;
+	font-size:1.2rem;
+}
+
+footer {
+	display:block;
+	text-align: center;
+	color:#ccc;
+	bottom:2%;
+}
+
+@media only screen and (min-width: 480px) {
+	article {
+		font-size:1.3rem;
+		background: #111;
+		color:#777;
+	}
+
+	a:visited{color:#E889C5;
+			text-decoration: line-through;}
+	a:hover{color:#E3B6D2;
+			font-size: 1.1rem;
+			text-decoration: none;}
+
+}
+
+@media only screen and (min-width: 768px) {
+	h1 {
+		margin:0px;
+		text-align: center;
+		font-size:2.2rem;
+	}
+	h2 {
+		text-align: center;
+		font-size:1.8rem;
+	}
+
+	nav {
+			text-align:center;
+	}
+
+	article {
+		font-size:1.4rem;
+		background:#222;
+	}
+
+	li {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 2.3rem;
+	}
+
+	article {
+		font-size:1.6rem;
+	}
+}
