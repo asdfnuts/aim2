@@ -3,9 +3,8 @@ html, body {
 	padding:0px;
 	background:#000;
 	color:#ccc;
+	font-size: 62.5%;
 }
-
-
 
 /* This will enforce block-level properties to HTML5 elements */
 article, aside, details, figcaption, figure, 
@@ -22,7 +21,11 @@ footer, header, hgroup, nav, section {
 
 article {
     -webkit-transition: background 0.2s ease 0s;
-    transition: background 0.2s ease 0s; }
+    transition: background 0.2s ease 0s; 
+	font-size:2.0rem;
+	margin:auto;
+	width:80%;
+	}
 
 header {
 	text-align: center;
@@ -32,34 +35,35 @@ header {
 hgroup {
 	width: 100%;
 	background-color: #292929;
-	font-family: 'Pacifico', cursive;
 }
 
 h1 {
+	font-family: 'Pacifico', cursive;
 	margin-left:4%;
 	color:#777;
-	font-size:1.6rem;
+	font-size:3.0rem;
 }
 h2 {	
+	font-family: 'Pacifico', cursive;
 	margin-left:4%;
 	color:#666;
-	font-size:1.3rem;
+	font-size:2.6rem;
 	font-weight:normal;
 }
 
 nav {
 	font-family: 'Pacifico', cursive;
-
+	font-size:2.0rem;
 }
 
 li {
 	list-style: none;
 	padding: 0px;
 	display: inline-block;
-	line-height:2rem;
 }
 
 article li {
+	line-height: 2.8rem;
 	display:block;
 }
 
@@ -67,15 +71,7 @@ a:link {color: #D9418D;}
 a:visited{color:#E889C5;
 		text-decoration: line-through;}
 a:hover{color:#E3B6D2;
-		font-size: 1.1rem;
 		text-decoration: none;}
-
-
-article {
-	margin:auto;
-	width:80%;
-	font-size:1.2rem;
-}
 
 footer {
 	display:block;
@@ -86,7 +82,7 @@ footer {
 
 @media only screen and (min-width: 480px) {
 	article {
-		font-size:1.3rem;
+		font-size:2.2rem;
 		background: #111;
 		color:#777;
 	}
@@ -94,7 +90,7 @@ footer {
 	a:visited{color:#E889C5;
 			text-decoration: line-through;}
 	a:hover{color:#E3B6D2;
-			font-size: 1.1rem;
+			font-size: 2.3rem;
 			text-decoration: none;}
 
 }
@@ -103,19 +99,20 @@ footer {
 	h1 {
 		margin:0px;
 		text-align: center;
-		font-size:2.2rem;
+		font-size:3.5rem;
 	}
 	h2 {
 		text-align: center;
-		font-size:1.8rem;
+		font-size:3.2rem;
 	}
 
 	nav {
-			text-align:center;
+		text-align:center;
+		font-size: 2.2rem;
 	}
 
 	article {
-		font-size:1.4rem;
+		font-size:2.6rem;
 		background:#222;
 	}
 
@@ -126,13 +123,17 @@ footer {
 
 @media only screen and (min-width: 1024px) {
 	h1 {
-		font-size: 3rem;
+		font-size: 4.0rem;
 	}
 	h2 {
-		font-size: 2.3rem;
+		font-size: 3.4rem;
+	}
+
+	nav {
+		font-size: 3.0rem;
 	}
 
 	article {
-		font-size:1.6rem;
+		font-size:2.8rem;
 	}
 }
